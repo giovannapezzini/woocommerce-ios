@@ -495,7 +495,15 @@ private extension StorePickerViewController {
     /// Displays a generic error view as a modal with options to see troubleshooting tips and to contact support.
     ///
     func displayUnknownErrorModal() {
-        let viewController = StorePickerErrorHostingController.createWithActions(presenting: self)
+        let hostingViewController = StorePickerErrorHostingController.createWithActions(presenting: self)
+        hostingViewController.view.translatesAutoresizingMaskIntoConstraints = false
+
+        // Wraps `UIHostingViewController` in a `UIViewController` to fix rotation issues with custom presentation mode and SwiftUI view. 
+        let viewController = UIViewController()
+        viewController.addChild(hostingViewController)
+        viewController.view.addSubview(hostingViewController.view)
+        viewController.view.pinSubviewToAllEdges(hostingViewController.view)
+
         viewController.modalPresentationStyle = .custom
         viewController.transitioningDelegate = self
         present(viewController, animated: true)

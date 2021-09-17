@@ -32,7 +32,7 @@ final class StorePickerErrorHostingController: UIHostingController<StorePickerEr
         super.viewDidLoad()
 
         // Allows the view have a clear background when a custom presentation context
-        view.backgroundColor = modalPresentationStyle == .custom ? .clear : view.backgroundColor
+        view.backgroundColor = .clear
     }
 
     required dynamic init?(coder aDecoder: NSCoder) {
