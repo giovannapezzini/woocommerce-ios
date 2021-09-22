@@ -21,8 +21,8 @@ public class MediaRemote: Remote {
             ParameterKey.contextKey: context,
             ParameterKey.pageSize: pageSize,
             ParameterKey.pageNumber: pageNumber,
-            ParameterKey.fields: "ID,date,URL,thumbnails,title,alt,extension,mime_type",
-            ParameterKey.mimeType: "image"
+            ParameterKey.fields: "ID,date,URL,thumbnails,title,alt,extension,mime_type"/*,
+            ParameterKey.mimeType: "image"*/
         ]
 
         let path = "sites/\(siteID)/media"
