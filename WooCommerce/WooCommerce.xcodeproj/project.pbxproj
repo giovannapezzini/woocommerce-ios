@@ -529,6 +529,7 @@
 		3FF314E126FC74450012E68E /* UITestsFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF314E026FC74450012E68E /* UITestsFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FF314E726FC74560012E68E /* ScreenObject in Frameworks */ = {isa = PBXBuildFile; productRef = 3FF314E626FC74560012E68E /* ScreenObject */; };
 		3FF314E926FC74600012E68E /* XCUITestHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 3FF314E826FC74600012E68E /* XCUITestHelpers */; };
+		3FF314F126FC785C0012E68E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF314EF26FC784A0012E68E /* XCTest.framework */; platformFilter = ios; };
 		4506BD712461965300FE6377 /* ProductVisibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506BD6F2461965300FE6377 /* ProductVisibilityViewController.swift */; };
 		4506BD722461965300FE6377 /* ProductVisibilityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4506BD702461965300FE6377 /* ProductVisibilityViewController.xib */; };
 		4508BF622660E34A00707869 /* ShippingLabelCarrierAndRatesTopBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4508BF612660E34A00707869 /* ShippingLabelCarrierAndRatesTopBanner.swift */; };
@@ -1958,6 +1959,7 @@
 		33035144757869DE5E4DC88A /* Pods-WooCommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WooCommerce.release.xcconfig"; path = "../Pods/Target Support Files/Pods-WooCommerce/Pods-WooCommerce.release.xcconfig"; sourceTree = "<group>"; };
 		3FF314DE26FC74450012E68E /* UITestsFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITestsFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF314E026FC74450012E68E /* UITestsFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITestsFoundation.h; sourceTree = "<group>"; };
+		3FF314EF26FC784A0012E68E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4506BD6F2461965300FE6377 /* ProductVisibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVisibilityViewController.swift; sourceTree = "<group>"; };
 		4506BD702461965300FE6377 /* ProductVisibilityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductVisibilityViewController.xib; sourceTree = "<group>"; };
 		4508BF612660E34A00707869 /* ShippingLabelCarrierAndRatesTopBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingLabelCarrierAndRatesTopBanner.swift; sourceTree = "<group>"; };
@@ -2841,6 +2843,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF314E726FC74560012E68E /* ScreenObject in Frameworks */,
+				3FF314F126FC785C0012E68E /* XCTest.framework in Frameworks */,
 				3FF314E926FC74600012E68E /* XCUITestHelpers in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4865,6 +4868,7 @@
 		88A44ABE866401E6DB03AC60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FF314EF26FC784A0012E68E /* XCTest.framework */,
 				315E14F32698DA24000AD5FF /* PassKit.framework */,
 				D88FDB4425DD223B00CB0DBD /* Hardware.framework */,
 				26FB056725F6CB6000A40B26 /* Fakes.framework */,
@@ -8593,6 +8597,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -8625,6 +8630,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -8657,6 +8663,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
