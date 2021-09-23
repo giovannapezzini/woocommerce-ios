@@ -18,7 +18,7 @@ class WooCommerceScreenshots: XCTestCase {
         stopWebServer()
     }
 
-    func testScreenshots() {
+    func testScreenshots() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         setupSnapshot(app)
@@ -29,7 +29,7 @@ class WooCommerceScreenshots: XCTestCase {
 
         app.launch()
 
-        MyStoreScreen()
+        try MyStoreScreen()
 
             // My Store
             .dismissTopBannerIfNeeded()
