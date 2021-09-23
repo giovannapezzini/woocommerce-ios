@@ -526,6 +526,8 @@
 		3F1CA81F26C3543C00228BF2 /* XCUITestHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 3F1CA81E26C3543C00228BF2 /* XCUITestHelpers */; };
 		3FF2247326706AA3008FFA87 /* ScreenObject in Frameworks */ = {isa = PBXBuildFile; productRef = 3FF2247226706AA3008FFA87 /* ScreenObject */; };
 		3FF2248A267073AE008FFA87 /* ScreenObject in Frameworks */ = {isa = PBXBuildFile; productRef = 3FF22489267073AE008FFA87 /* ScreenObject */; };
+		3FF314D726FC55DE0012E68E /* ScreenObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF314D626FC55DE0012E68E /* ScreenObject+Extension.swift */; };
+		3FF314D826FC577B0012E68E /* ScreenObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF314D626FC55DE0012E68E /* ScreenObject+Extension.swift */; };
 		4506BD712461965300FE6377 /* ProductVisibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506BD6F2461965300FE6377 /* ProductVisibilityViewController.swift */; };
 		4506BD722461965300FE6377 /* ProductVisibilityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4506BD702461965300FE6377 /* ProductVisibilityViewController.xib */; };
 		4508BF622660E34A00707869 /* ShippingLabelCarrierAndRatesTopBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4508BF612660E34A00707869 /* ShippingLabelCarrierAndRatesTopBanner.swift */; };
@@ -1953,6 +1955,7 @@
 		31FE28C125E6D338003519F2 /* LearnMoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreTableViewCell.swift; sourceTree = "<group>"; };
 		31FE28C725E6D384003519F2 /* LearnMoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LearnMoreTableViewCell.xib; sourceTree = "<group>"; };
 		33035144757869DE5E4DC88A /* Pods-WooCommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WooCommerce.release.xcconfig"; path = "../Pods/Target Support Files/Pods-WooCommerce/Pods-WooCommerce.release.xcconfig"; sourceTree = "<group>"; };
+		3FF314D626FC55DE0012E68E /* ScreenObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScreenObject+Extension.swift"; sourceTree = "<group>"; };
 		4506BD6F2461965300FE6377 /* ProductVisibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVisibilityViewController.swift; sourceTree = "<group>"; };
 		4506BD702461965300FE6377 /* ProductVisibilityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductVisibilityViewController.xib; sourceTree = "<group>"; };
 		4508BF612660E34A00707869 /* ShippingLabelCarrierAndRatesTopBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingLabelCarrierAndRatesTopBanner.swift; sourceTree = "<group>"; };
@@ -6521,6 +6524,7 @@
 				F9BB249623F4B1C60068A420 /* Products */,
 				F9BB249923F501FB0068A420 /* Settings */,
 				F997172B23DBCD8E00592D8E /* BaseScreen.swift */,
+				3FF314D626FC55DE0012E68E /* ScreenObject+Extension.swift */,
 				F997172F23DBCEB200592D8E /* TabNavComponent.swift */,
 			);
 			path = Screens;
@@ -8234,6 +8238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCDC49DA2400011F003166BA /* MyStoreScreen.swift in Sources */,
+				3FF314D726FC55DE0012E68E /* ScreenObject+Extension.swift in Sources */,
 				CCDC49DB2400011F003166BA /* OrdersScreen.swift in Sources */,
 				F93E8E5C24087FE10057FF21 /* SingleProductScreen.swift in Sources */,
 				F93E8E5A24087FE10057FF21 /* ProductsScreen.swift in Sources */,
@@ -8276,6 +8281,7 @@
 				F997172C23DBCD8F00592D8E /* BaseScreen.swift in Sources */,
 				F997173F23DBFFEF00592D8E /* ReviewsScreen.swift in Sources */,
 				F997172223DBCD6100592D8E /* LoginUsernamePasswordScreen.swift in Sources */,
+				3FF314D826FC577B0012E68E /* ScreenObject+Extension.swift in Sources */,
 				F997172823DBCD6100592D8E /* LoginCheckMagicLinkScreen.swift in Sources */,
 				24C5ACBA25A530A4008FD769 /* GetStartedScreen.swift in Sources */,
 				CCFC00B523E9BD1500157A78 /* ScreenshotCredentials.swift in Sources */,
