@@ -251,7 +251,7 @@ final class EditAddressFormViewModelTests: XCTestCase {
         assertEqual(update.order.billingAddress?.firstName, "Tester")
         assertEqual(update.fields, [.billingAddress])
     }
-  
+
     func test_selecting_state_updates_state_field() {
         // Given
         let newState = StateOfACountry(code: "CA", name: "California")
